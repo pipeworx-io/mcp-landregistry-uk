@@ -78,3 +78,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/search_transactions \
+  -H 'Content-Type: application/json' \
+  -d '{"postcode":"SW1A 1AA","minPrice":500000,"maxPrice":2000000,"minDate":"2020-01-01","sort":"-transactionDate","pageSize":25}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/search_transactions`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.

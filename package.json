@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-landregistry-uk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "HM Land Registry Price Paid Data (UK) MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-e7dec125f794b668529bece6789a157ebe0e381114d75b7b57963fd2c096d334",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-ebc046cd4839ee86fe9a49f8798832e2af98933f7236cf00056a109ba918f95c",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
